@@ -1,0 +1,19 @@
+.nav {
+    background-color: teal;
+}
+
+a.nav-link { 
+    color: white;
+    font-size: 30px;
+    text-align: center;
+}
+
+.card{
+    width: 1250px;
+    height: 1250px;
+
+}
+.landing_page {
+    width: 750px;
+    height: 750px;
+}
