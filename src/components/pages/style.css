@@ -1,3 +1,4 @@
+/*Nav bar */
 .nav {
     background-color: teal;
 }
@@ -8,12 +9,41 @@ a.nav-link {
     text-align: center;
 }
 
-.card{
-    width: 1250px;
-    height: 1250px;
+/* card styling */
+.container {
+    margin-top: 2%;
+    border-radius: 5px;
+    border-color:teal;
+    border-width: 5px;
+}
+
+.card {
+    width: 75%;
+    height: 75%;
+    border-radius: 5px;
+    border-color:teal;
+    border-width: 5px;
 
 }
+
+/*projects images*/
 .landing_page {
-    width: 750px;
-    height: 750px;
+    margin-top: 2%;
+    margin-bottom: 2%;
+    width: 75%;
+    height: 75%;
+}
+
+/*about me card image */
+.blenda {
+    margin-top: 2%;
+    margin-bottom: 2%;
+    width: 75%;
+    height: 75%;
+}
+
+/* Text styling */
+
+p{
+    font-size: 20px;
 }
