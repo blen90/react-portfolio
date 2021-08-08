@@ -1,5 +1,6 @@
 import React from 'react';
 import '../pages/style.css';
+import Footer from '../pages/Footer';
 
 export default function About() {
   return (
@@ -18,7 +19,10 @@ export default function About() {
             </p>
           </div>
         </div>
-      </div>
-    </div>
+      </div> 
+  <Footer />
+  </div>
+
   );
+  
 }

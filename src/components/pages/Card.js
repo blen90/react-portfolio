@@ -1,21 +1,22 @@
 import React from 'react';
+import Footer from '../pages/Footer';
 
-// TODO: Modify this function so that it accepts props from the parent component
 export default function Card(props) {
 
-    // TODO: Update the return statement to display the data we received as props
     return (
         <div className="container text-center">
             <div className="row col-3-md col-3-sm">
                 <div className="card justify-content-center">
                     <div className="card-body ">
-                    <h2 className="card-title">{props.name}</h2>
-                   <div className="card-image">{props.image}</div>
-                   <p className="card-text">{props.description}</p>
-                   <p className="card-repo">{props.repo}</p>
+                        <h2 className="card-title">{props.name}</h2>
+                        <div className="card-image">{props.image}</div>
+                        <p className="card-text">{props.description}</p>
+                        <a className="card-repo">{props.repository}</a>
+                        <a className="card-deployed">{props.deployed}</a>
                     </div>
                 </div>
             </div>
+            <Footer />
         </div>
     );
 }

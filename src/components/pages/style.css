@@ -11,39 +11,77 @@ a.nav-link {
 
 /* card styling */
 .container {
-    margin-top: 2%;
+    margin-top: 5%;
+    margin-bottom: 5%;
+
+}
+
+.card-body {
     border-radius: 5px;
     border-color:teal;
     border-width: 5px;
 }
-
 .card {
     width: 75%;
     height: 75%;
-    border-radius: 5px;
-    border-color:teal;
-    border-width: 5px;
-
 }
+
+/* images */
+
 
 /*projects images*/
 .landing_page {
-    margin-top: 2%;
-    margin-bottom: 2%;
+    margin-top: 5%;
+    margin-bottom: 5%;
     width: 75%;
     height: 75%;
+}
+
+.landing_page:hover {
+    transform: scale(1.2);
+}
+
+.dashboard {
+    margin-top: 5%;
+    margin-bottom: 5%;
+    width: 75%;
+    height: 75%;
+}
+
+.dashboard:hover {
+    transform: scale(1.2);
 }
 
 /*about me card image */
 .blenda {
-    margin-top: 2%;
-    margin-bottom: 2%;
+    margin-top: 5%;
+    margin-bottom: 5%;
     width: 75%;
     height: 75%;
 }
 
+
 /* Text styling */
 
-p{
+p {
     font-size: 20px;
+}
+
+.card-repo, .card-deployed {
+    display: inline-block;
+    margin-right: 5%;
+}
+
+.github-logo {
+    width: 10%;
+    height: 10%;
+    margin-top: 10%;
+    margin-right: 5%;
+}
+
+.linkedin-logo {
+    width: 8%;
+    height: 8%;
+    margin-top: 10%;
+    margin-right: 5%;
 }
