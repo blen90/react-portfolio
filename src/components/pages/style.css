@@ -22,6 +22,7 @@ a.nav-link {
     border-width: 5px;
 }
 .card {
+    display: inline-block;
     width: 75%;
     height: 75%;
 }
@@ -84,4 +85,10 @@ p {
     height: 8%;
     margin-top: 10%;
     margin-right: 5%;
+}
+
+/* Footer */
+
+footer {
+    margin-top: 2%;
 }

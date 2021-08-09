@@ -1,11 +1,10 @@
 import React from 'react';
-import Footer from '../pages/Footer';
 
 export default function Card(props) {
 
     return (
         <div className="container text-center">
-            <div className="row col-3-md col-3-sm">
+            <div className="column col-6-md col-3-sm">
                 <div className="card justify-content-center">
                     <div className="card-body ">
                         <h2 className="card-title">{props.name}</h2>
@@ -16,7 +15,6 @@ export default function Card(props) {
                     </div>
                 </div>
             </div>
-            <Footer />
         </div>
     );
 }
