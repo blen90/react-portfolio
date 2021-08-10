@@ -1,30 +1,31 @@
 import React from 'react';
-
+import './style.css';
 
 
 
 export default function Contact() {
   return (
-    <div className="container text-center">
-      <div className="column col-6-md col-3-sm">
-        <div className="card">
+    <div className="container col-6-md col-3-sm">
+        <div className="row">
           <form>
+            <h2 className="title"> Contact Me! </h2>
             <div className="form-group">
-              <h2 className="title"> Contact Me! </h2>
-              <label for="formGroupExampleInput">Your name</label>
+              <label>Your name</label>
               <input type="text" className="form-name" placeholder="Blenda"></input>
-              <div className="form-group">
-                <label for="formGroupExampleInput2">Your Last name</label>
-                <input type="text" className="form-lastName" placeholder="Orellana"></input>
-                <label for="formGroupExampleInput2">Your Message</label>
-                <input type="text" className="form-message" placeholder="message"></input>
-                <button className="submit-button btn-primary">Submit</button>
-              </div>
+            </div>
+            <div className="form-group">
+              <label>Your Last name</label>
+              <input type="text" className="form-lastName" placeholder="Orellana"></input>
+            </div>
+            <div className="form-group">
+              <label>Your Message</label>
+              <input type="text" className="form-message" placeholder="message"></input>
+            </div>
+            <div className="form-group">
+              <button className="submit-button btn-primary">Submit</button>
             </div>
           </form>
-        </div>
       </div>
     </div>
-
   );
 }
