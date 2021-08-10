@@ -1,14 +1,15 @@
 import React from "react";
-import PortfolioContainer from "./components/PortfolioContainer";
-import Footer from './components/pages/Footer';
+import PortfolioContainer from "./pages/PortfolioContainer";
+import Footer from './components/Footer';
+import Header from './components/Header';
 
 const App = () => (
     <div>
-        <PortfolioContainer />;
-        <Footer />;
+        <Header />
+        <PortfolioContainer />
+        <Footer />
     </div>
 )
-
 
 
 export default App;

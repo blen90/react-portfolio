@@ -3,6 +3,10 @@
     background-color: teal;
 }
 
+/* ul.nav.nav-tabs {
+    width: 500px;
+} */
+
 a.nav-link { 
     color: white;
     font-size: 30px;
@@ -13,7 +17,6 @@ a.nav-link {
 .container {
     margin-top: 5%;
     margin-bottom: 5%;
-
 }
 
 .card-body {
@@ -80,6 +83,10 @@ p {
     margin-right: 5%;
 }
 
+.github-logo:hover {
+    transform: scale(1.5);
+}
+
 .linkedin-logo {
     width: 8%;
     height: 8%;
@@ -87,8 +94,22 @@ p {
     margin-right: 5%;
 }
 
+.linkedin-logo:hover {
+    transform: scale(1.5);
+}
 /* Footer */
 
 footer {
     margin-top: 2%;
+}
+
+header {
+    padding-top: 2%;
+    background-color: purple;
+    padding-bottom: 2%;
+}
+
+h1 {
+    font-weight:lighter;
+    color: white;
 }

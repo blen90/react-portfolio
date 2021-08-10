@@ -1,6 +1,6 @@
 import React from 'react';
-import Card from './Card';
-import '../pages/style.css';
+import Card from '../components/Card';
+import './style.css';
 
 
 const data = [

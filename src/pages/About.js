@@ -1,5 +1,5 @@
 import React from 'react';
-import '../pages/style.css';
+import './style.css';
 
 
 export default function About() {
@@ -8,7 +8,7 @@ export default function About() {
       <div className="row col-3-md col-3-sm">
         <div className="card">
           <div className="card-body ">
-            <h1>Blenda Orellana</h1>
+            <h1>About Me</h1>
             <img src="assets/images/blenda1.jpg" alt="blenda" className="blenda"></img>
             <p>
               Hello! My name is Blenda, I'm originially from Guatemala, but I'm currently living in Austin, Texas. <br>
