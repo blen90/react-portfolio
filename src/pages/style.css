@@ -1,6 +1,6 @@
 /*Nav bar */
 .nav {
-    background-color: teal;
+    background-color: #C822FF;
 }
 
 /* ul.nav.nav-tabs {
@@ -15,8 +15,9 @@ a.nav-link {
 
 /* card styling */
 .container {
-    margin-top: 5%;
-    margin-bottom: 5%;
+    flex-wrap: wrap;
+    margin-top:2%;
+    margin-bottom:2%;
 }
 
 .card-body {
@@ -25,13 +26,20 @@ a.nav-link {
     border-width: 5px;
 }
 .card {
-    display: inline-block;
-    width: 75%;
-    height: 75%;
+   display: -moz-grid-group;
+    width: 100%;
+    height: 100%;
 }
 
+div.column {
+    display: inline-block;
+}
 /* images */
 
+div.card-body {
+   background: rgb(200,34,255);
+background: linear-gradient(0deg, rgba(200,34,255,1) 0%, rgba(44,209,207,1) 49%, rgba(26,109,255,1) 100%);
+}
 
 /*Portfolio images*/
 .landing_page {
@@ -116,8 +124,8 @@ a.nav-link {
 .blenda {
     margin-top: 5%;
     margin-bottom: 5%;
-    width: 75%;
-    height: 75%;
+    width: 50%;
+    height: 50%;
 }
 
 
@@ -144,8 +152,8 @@ p {
 }
 
 .linkedin-logo {
-    width: 8%;
-    height: 8%;
+    width: 10%;
+    height: 10%;
     margin-top: 10%;
     margin-right: 5%;
 }
@@ -162,7 +170,7 @@ footer {
 
 header {
     padding-top: 2%;
-    background-color: purple;
+    background-color: #1A6DFF;
     padding-bottom: 2%;
 }
 
@@ -171,14 +179,22 @@ h1 {
     color: white;
 }
 
-/* form {
-    margin-left: 15%;
-    margin-right:15%;
-    width: 70%;
+.form {
+    background-color: rgb(43, 40, 40);
+    margin-top: 2%;
+    margin-left: 20%;
+    margin-right: 20%;
+    margin-bottom: 2% ;
+    width: 60%;
+    border-radius: 20px;
 }
- */
 
-.form-group {
+h2.title {
+    color: snow;
+    margin: 2%;
+}
+
+.li.input {
     display: flex;
     flex-direction: column;
 }
@@ -204,4 +220,37 @@ h1 {
 
 input {
     text-align: center;
+}
+
+.skill-logo  {
+    text-align: center;
+    width: 10%;
+    height: 10%;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    margin-right: 5%;
+}
+
+li.skill {
+    width: 40%;
+    display: inline;
+    list-style-type:none;
+}
+
+.resume {
+    background-color: rgb(43, 40, 40);
+    margin-top: 2%;
+    margin-left: 20%;
+    margin-right: 20%;
+    margin-bottom: 2% ;
+    width: 60%;
+    border-radius: 20px;
+}
+
+h1, h2, p {
+    color: snow;
+}
+
+a, a:hover, a:active, a:visited { 
+    color: white; 
 }

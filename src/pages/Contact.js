@@ -5,27 +5,24 @@ import './style.css';
 
 export default function Contact() {
   return (
-    <div className="container col-6-md col-3-sm">
-        <div className="row">
-          <form>
-            <h2 className="title"> Contact Me! </h2>
-            <div className="form-group">
-              <label>Your name</label>
-              <input type="text" className="form-name" placeholder="Blenda"></input>
-            </div>
-            <div className="form-group">
-              <label>Your Last name</label>
-              <input type="text" className="form-lastName" placeholder="Orellana"></input>
-            </div>
-            <div className="form-group">
-              <label>Your Message</label>
-              <input type="text" className="form-message" placeholder="message"></input>
-            </div>
-            <div className="form-group">
-              <button className="submit-button btn-primary">Submit</button>
-            </div>
-          </form>
-      </div>
+    <div className="form col-12-lg col-6-md col-3-sm text-center">
+      <div className="form-container"></div>
+      <h2 className="title"> Contact Me! </h2>
+      <br></br>
+      <li className="input">
+        <input type="text" className="form-name" placeholder="Your name"></input>
+      </li>
+      <br></br>
+      <li className="input">
+        <input type="text" className="form-lastName" placeholder="Your last name"></input>
+      </li>
+      <br></br>
+      <li className="input">
+        <input type="text" className="form-message" placeholder="Your message"></input>
+      </li>
+      <br></br>
+      <button className="submit-button btn-primary">Submit</button>
     </div>
+
   );
 }

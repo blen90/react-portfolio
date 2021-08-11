@@ -10,8 +10,8 @@ export default function Card(props) {
                         <h2 className="card-title">{props.name}</h2>
                         <div className="card-image">{props.image}</div>
                         <p className="card-text">{props.description}</p>
-                        <a className="card-repo">{props.repository}</a>
-                        <a className="card-deployed">{props.deployed}</a>
+                        <div className="card-repo">{props.repository}</div>
+                        <div className="card-deployed">{props.deployed}</div>
                     </div>
                 </div>
             </div>

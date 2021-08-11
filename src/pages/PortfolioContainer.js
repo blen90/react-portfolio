@@ -3,6 +3,7 @@ import NavTabs from '../components/NavTabs';
 import About from './About';
 import Portfolio from './Portfolio';
 import Contact from './Contact';
+import Resume from './Resume';
 
 
 export default function PortfolioContainer() {
@@ -18,6 +19,9 @@ export default function PortfolioContainer() {
     }
     if (currentPage === 'Contact') {
       return <Contact />;
+    }
+    if (currentPage === 'Resume') {
+      return <Resume />;
     }
     return <About />;
   };
