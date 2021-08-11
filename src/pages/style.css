@@ -45,6 +45,17 @@ a.nav-link {
     transform: scale(1.2);
 }
 
+.password-generator{
+    margin-top: 5%;
+    margin-bottom: 5%;
+    width: 75%;
+    height: 75%;
+}
+
+.password-generator:hover {
+    transform: scale(1.2);
+}
+
 .dashboard {
     margin-top: 5%;
     margin-bottom: 5%;
@@ -55,6 +66,51 @@ a.nav-link {
 .dashboard:hover {
     transform: scale(1.2);
 }
+
+.work-scheduler {
+    margin-top: 5%;
+    margin-bottom: 5%;
+    width: 75%;
+    height: 75%;
+}
+
+.dashboard:hover {
+    transform: scale(1.2);
+}
+
+.weather-dashboard {
+    margin-top: 5%;
+    margin-bottom: 5%;
+    width: 75%;
+    height: 75%;
+}
+
+.weather-dashboard:hover {
+    transform: scale(1.2);
+}
+
+.note-taker {
+    margin-top: 5%;
+    margin-bottom: 5%;
+    width: 75%;
+    height: 75%;
+}
+
+.note-taker:hover {
+    transform: scale(1.2);
+}
+
+.workout-tracker {
+    margin-top: 5%;
+    margin-bottom: 5%;
+    width: 75%;
+    height: 75%;
+}
+
+.workout-tracker:hover {
+    transform: scale(1.2);
+}
+
 
 /*about me card image */
 .blenda {

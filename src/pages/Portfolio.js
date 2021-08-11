@@ -20,6 +20,46 @@ const data = [
     deployed: <a href="https://www.gentle-reaches-60799.herokuapp.com/" target="_blank">Link to deployed app</a>,
     id: 2,
   },
+  {
+    name: 'Password Generator',
+    image: <img src="assets/images/password-generated.jpg" alt="password-generator" className="password-generator"></img>,
+    description: 'This app creates a random password with the choices the user picks',
+    repository: <a href="https:www.//github.com/blen90/hw3-code-generator.git" target="_blank">Link to repository</a>,
+    deployed: <a href="https://blen90.github.io/hw3-code-generator/" target="_blank">Link to deployed app</a>,
+    id: 3,
+  },
+  {
+    name: 'Work Day Scheduler',
+    image: <img src="assets/images/work.jpg" alt="work-scheduler" className="work-scheduler"></img>,
+    description: 'This app allows the user to have a Work Day Scheduler and it saves tasks and changes color depending on what time it is',
+    repository: <a href="https://github.com/blen90/hw5-workday-calendar.git" target="_blank">Link to repository</a>,
+    deployed: <a href="https://blen90.github.io/hw5-workday-calendar/" target="_blank">Link to deployed app</a>,
+    id: 4,
+  },
+  {
+    name: 'Weather Dashboard',
+    image: <img src="assets/images/weather-dashboard.jpg" alt="weather-dashboard" className="weather-dashboard"></img>,
+    description: 'This app allows the user to get the current weather in the city they want to checkout and gives the five day Forecast',
+    repository: <a href="https://github.com/blen90/hw6-weather-dashboard.git" target="_blank">Link to repository</a>,
+    deployed: <a href="https://blen90.github.io/hw6-weather-dashboard/" target="_blank">Link to deployed app</a>,
+    id: 5,
+  },
+  {
+    name: 'Note Taker',
+    image: <img src="assets/images/notes.jpg" alt="note-taker" className="note-taker"></img>,
+    description: 'This app allows the user to create notes, saved them and delete them.',
+    repository: <a href="https://github.com/blen90/hw11-note-taker.git" target="_blank">Link to repository</a>,
+    deployed: <a href="https://atitlan-note-taker.herokuapp.com/" target="_blank">Link to deployed app</a>,
+    id: 6,
+  },
+  {
+    name: 'Workout Tracker',
+    image: <img src="assets/images/workout.jpg" alt="workout-tracker" className="workout-tracker"></img>,
+    description: 'This app allows the user to create workout routines and keep track of them. It also keeps track of the past 7 days.',
+    repository: <a href="https://github.com/blen90/hw18-workout-tracker.git" target="_blank">Link to repository</a>,
+    deployed: <a href="https://quiet-crag-39562.herokuapp.com/?id=610b4ad83d6a8d001502b06a" target="_blank">Link to deployed app</a>,
+    id: 7,
+  },
 ];
 
 export default function Display() {
