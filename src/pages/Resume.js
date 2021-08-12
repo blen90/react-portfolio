@@ -2,8 +2,7 @@ import './style.css';
 
 export default function Resume() {
     return (
-
-        
+       
         <div className="resume col-12-lg col-6-md col-3-sm text-center">
             <h1>Learned Technologies</h1>
             <div className="skill-container ">

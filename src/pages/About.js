@@ -4,8 +4,8 @@ import './style.css';
 
 export default function About() {
   return (
-    <div className="about-me container text-center">
-      <div className="row col-3-md col-3-sm">
+    <div className="container text-center">
+      <div className="column col-6-md col-3-sm">
         <div className="card">
           <div className="card-body ">
             <h1>About Me</h1>
@@ -19,9 +19,9 @@ export default function About() {
             </p>
           </div>
         </div>
-      </div> 
-  </div>
+      </div>
+    </div>
 
   );
-  
+
 }
