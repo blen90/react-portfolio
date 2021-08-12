@@ -34,6 +34,13 @@ a.nav-link {
     height: 100%;
 }
 
+.card-title {
+    margin-top: 2%;
+}
+.card-repo, .card-deployed {
+    margin-bottom: 2%;
+}
+
 div.column {
     display: inline-block;
 }
@@ -167,11 +174,15 @@ p {
 }
 /* Footer */
 
-.div.footer.text-center {
-    /* margin-top: 2%; */
-    background-color: rgb(43, 40, 40);
+.footer-containter {
+    position:absolute; bottom:0;
+    margin-top: 0%;
+   
 }
 
+div.footer-containter{
+    background-color: rgb(43, 40, 40) ;
+}
 header {
     padding-top: 2%;
     background-color: #1A6DFF;
@@ -194,8 +205,8 @@ h1 {
 }
 
 h2.title {
-    color: snow;
-    margin: 2%;
+    color:snow;
+    margin-top:  2%;
 }
 
 .li.input {
