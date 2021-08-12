@@ -12,14 +12,16 @@ const data = [
     deployed: <a href="https://jacobbeckfeld.github.io/Cocktails-Cuisine-Craft-Beers/" target="_blank" rel="noreferrer">Link to deployed app</a>,
     id: 1,
   },
-  {
-    name: 'Project 2 - Event Organizer',
-    image: <img src="assets/images/dashboard-project-2.jpg" alt="landing page" className="dashboard"></img>,
-    description: 'This app was created so the user can lookup events close by, create and save events',
-    repository: <a href="https://www.github.com/neilburt/group-project-2" target="_blank" rel="noreferrer">Link to repo</a>,
-    deployed: <a href="https://gentle-reaches-60799.herokuapp.com/" target="_blank" rel="noreferrer">Link to deployed app</a>,
-    id: 2,
-  },
+  
+    {
+      name: 'Project 2 - Event Organizer',
+      image: <img src="assets/images/dashboard-project-2.jpg" alt="landing page" className="dashboard"></img>,
+      description: 'This app was created so the user can lookup events close by, create and save events',
+      repository: <a href="https://www.github.com/neilburt/group-project-2" target="_blank" rel="noreferrer">Link to repository</a>,
+      deployed: <a href="https://gentle-reaches-60799.herokuapp.com/" target="_blank" rel="noreferrer">Link to deployed app</a>,
+      id: 2,
+    },
+
   {
     name: 'Password Generator',
     image: <img src="assets/images/password-generated.jpg" alt="password-generator" className="password-generator"></img>,

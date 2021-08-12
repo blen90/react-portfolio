@@ -4,8 +4,9 @@ import '../pages/style.css';
 
 function Header() {
   return (
+
     <header className="header text-center">
-      <h1>Blenda Maricela Orellana Andrade</h1>
+      <h1 className="display-3">Blenda Maricela Orellana Andrade</h1>
     </header>
   );
 }

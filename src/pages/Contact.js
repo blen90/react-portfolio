@@ -23,6 +23,5 @@ export default function Contact() {
       <br></br>
       <button className="submit-button btn-primary">Submit</button>
     </div>
-
   );
 }

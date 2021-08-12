@@ -4,9 +4,7 @@ import './style.css';
 
 export default function About() {
   return (
-    <div className="container text-center">
-      <div className="column col-6-md col-3-sm">
-        <div className="card">
+    <div className="container text-center justify-content-center col-6-md col-3-sm">
           <div className="card-body ">
             <h1>About Me</h1>
             <img src="assets/images/blenda1.jpg" alt="blenda" className="blenda"></img>
@@ -19,8 +17,6 @@ export default function About() {
             </p>
           </div>
         </div>
-      </div>
-    </div>
 
   );
 

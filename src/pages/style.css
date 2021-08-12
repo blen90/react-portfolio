@@ -1,13 +1,11 @@
+
+
+
 /*Nav bar */
 .nav {
-    /* background-color: #C822FF; */
-
     background-color: rgb(43, 40, 40);
 }
 
-/* ul.nav.nav-tabs {
-    width: 500px;
-} */
 
 a.nav-link { 
     color: white;
@@ -22,12 +20,13 @@ a.nav-link {
     margin-bottom:2%;
 }
 
-.card-body {
+/* .card-body {
     padding:0%;
     border-radius: 5px;
     border-color:teal;
     border-width: 5px;
-}
+} */
+
 .card {
    /* display: -moz-grid-group; */
     width: 100%;
@@ -47,7 +46,8 @@ div.column {
 /* images */
 
 div.card-body {
-    padding:0%;
+    padding: 2%;
+    border-radius: 3%;
     background: rgb(200,34,255);
     background: linear-gradient(0deg, rgba(200,34,255,1) 0%, rgba(44,209,207,1) 49%, rgba(26,109,255,1) 100%);
 }
@@ -93,7 +93,7 @@ div.card-body {
     height: 75%;
 }
 
-.dashboard:hover {
+.work-scheduler:hover {
     transform: scale(1.2);
 }
 
@@ -142,9 +142,6 @@ div.card-body {
 
 /* Text styling */
 
-p {
-    font-size: 20px;
-}
 
 .card-repo, .card-deployed {
     display: inline-block;
@@ -159,7 +156,7 @@ p {
 }
 
 .github-logo:hover {
-    transform: scale(1.5);
+    transform: scale(1.2);
 }
 
 .linkedin-logo {
@@ -170,22 +167,21 @@ p {
 }
 
 .linkedin-logo:hover {
-    transform: scale(1.5);
+    transform: scale(1.2);
 }
 /* Footer */
 
 .footer-containter {
-    position:absolute; bottom:0;
+    position:absolute; 
     margin-top: 0%;
+    background-color: rgb(43, 40, 40) ;
    
 }
 
-div.footer-containter{
-    background-color: rgb(43, 40, 40) ;
-}
+
 header {
     padding-top: 2%;
-    background-color: #1A6DFF;
+    background-color: rgb(200,34,255);
     padding-bottom: 2%;
 }
 
@@ -208,6 +204,12 @@ h2.title {
     color:snow;
     margin-top:  2%;
 }
+
+h2.card-title {
+    color:snow;
+    margin-top:  2%;
+}
+
 
 .li.input {
     display: flex;
@@ -262,10 +264,18 @@ li.skill {
     border-radius: 20px;
 }
 
-h1, h2, p {
+h1, h2 {
     color: snow;
+    margin-top: 2%;
+    margin-bottom: 2%;
 }
 
+p {
+    font-size: 20px;
+    color: snow;
+    margin-top: 2%;
+    margin-bottom: 2%;
+}
 a, a:hover, a:active, a:visited { 
     color: white; 
     font-size: 20px;
