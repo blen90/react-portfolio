@@ -1,41 +1,88 @@
-import React from 'react';
-import emailjs from 'emailjs-com';
 import './style.css';
-// import { checkPassword, validateEmail } from '../utils/helpers';
-
-// import './ContactUs.css';
+import React, { useState } from 'react';
+import { validateEmail } from '../utils/helpers';
 
 export default function Contact() {
+  const [name, setName] = useState('');
+  const [email, setEmail] = useState('');
+  const [message, setMessage] = useState('');
+  const [errorMessage, setErrorMessage] = useState('');
 
-  function sendEmail(e) {
-    e.preventDefault();
+  const handleInputChange = (e) => {
+    const { target } = e;
+    const inputType = target.name;
+    const inputValue = target.value;
 
-    emailjs.sendForm('service_mxb2e23', 'template_twwgk7d', e.target, 'user_j4vKKqMNY4xCOIUz7layV')
-      .then((result) => {
-          console.log(result.text);
-      }, (error) => {
-          console.log(error.text);
-      });
-      e.target.reset()
+    if (inputType === 'name') {
+      setName(inputValue);
+    } else if (inputType === 'email') {
+      setEmail(inputValue);
+    } else {
+      setMessage(inputValue);
+    }
   }
+  const handleInputBlur = (e) => {
+    if (!e.target.value.length) {
+      setErrorMessage(`${e.target.name} is required`);
+    } else {
+      setErrorMessage('');
+    }
+  }
+  const handleFormSubmit = (e) => {
+    e.preventDefault();
+    if (!validateEmail(email)) {
+      setErrorMessage('Please enter a valid email.');
+      return;
 
+    } else if (!name.length || !email.length || !message.length) {
+      setErrorMessage('Please complete the required fields');
+      return;
+    }
+    setName('');
+    setEmail('');
+    setMessage('');
+  }
   return (
-    <div className="form col-12-lg col-6-md col-3-sm text-center">
-      <div className="form-container">
-      <h2 className="title"> Contact Me! </h2>
-      <br></br>
-    <form className="contact-form col-8 pt-2 mx-auto" onSubmit={sendEmail}>
-      <input type="hidden" name="contact_number" />
-      <label>Name</label>
-      <input type="text" className="form-name" name="user_name" placeholder="name" />
-      <label>Email</label>
-      <input type="text" className="form-email" name="user_email" placeholder="email"/>
-      <label>Message</label>
-      <textarea type="text" className="form-message" name="message" placeholder="message"/>
-      <input className="submit-button btn-primary" type="submit" value="Send" />
-    </form>
+    <div className="form col-6-md col-3-sm justify-content-center text-center">
+      <h2 className="title"> Get in touch with me! </h2>
+      <div className="form-container col-6-md col-3-sm">
+        <form className="contact-form col-6-md col-3-sm">
+          <input value={name} className="form-name"
+            name="name"
+            onChange={handleInputChange}
+            onBlur={handleInputBlur}
+            type="text"
+            placeholder="Name"
+          />
+          <input
+            value={email}
+            name="email"
+            className="form-email"
+            onChange={handleInputChange}
+            onBlur={handleInputBlur}
+            type="email"
+            placeholder="Email"
+          />
+          <input
+            value={message}
+            className="form-message"
+            name="message"
+            onChange={handleInputChange}
+            onBlur={handleInputBlur}
+            type="textarea"
+            placeholder="Message"
+          />
+          <button className="submit-button btn-primary" type="button" onClick={handleFormSubmit}>Submit</button>
+
+        </form>
+      </div>
+      {errorMessage && (
+        <div>
+          <p className="error-text">{errorMessage}</p>
+        </div>
+      )}
+
     </div>
-    </div>
-  );
+  )
 }
 

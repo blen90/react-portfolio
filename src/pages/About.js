@@ -1,13 +1,13 @@
 import React from 'react';
 import './style.css';
-
+import Blenda1 from '../assets/images/blenda1.jpg';
 
 export default function About() {
   return (
     <div className="container text-center justify-content-center col-6-md col-3-sm">
           <div className="card-body ">
             <h1>About Me</h1>
-            <img src="assets/images/blenda1.jpg" alt="blenda" className="blenda"></img>
+            <img src={Blenda1} alt="blenda" className="blenda"></img>
             <p>
               Hello! My name is Blenda, I'm originially from Guatemala, but I'm currently living in Austin, Texas. <br>
               </br>

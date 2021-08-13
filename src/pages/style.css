@@ -1,6 +1,3 @@
-
-
-
 /*Nav bar */
 .nav {
     background-color: rgb(43, 40, 40);
@@ -8,9 +5,13 @@
 
 
 a.nav-link { 
-    color: white;
+    color: purple;
     font-size: 30px;
     text-align: center;
+}
+
+a.nav-link:active {
+    color:purple
 }
 
 /* card styling */
@@ -20,15 +21,7 @@ a.nav-link {
     margin-bottom:2%;
 }
 
-/* .card-body {
-    padding:0%;
-    border-radius: 5px;
-    border-color:teal;
-    border-width: 5px;
-} */
-
 .card {
-   /* display: -moz-grid-group; */
     width: 100%;
     height: 100%;
 }
@@ -36,6 +29,7 @@ a.nav-link {
 .card-title {
     margin-top: 2%;
 }
+
 .card-repo, .card-deployed {
     margin-bottom: 2%;
 }
@@ -43,6 +37,7 @@ a.nav-link {
 div.column {
     display: inline-block;
 }
+
 /* images */
 
 div.card-body {
@@ -51,8 +46,6 @@ div.card-body {
     background-image: url(./images/bg1.jpg);
     background-size: cover;
     background-repeat: no-repeat;
-    /* background: rgb(200,34,255);
-    background: linear-gradient(0deg, rgba(200,34,255,1) 0%, rgba(44,209,207,1) 49%, rgba(26,109,255,1) 100%); */
 }
 
 /*Portfolio images*/
@@ -145,7 +138,6 @@ div.card-body {
 
 /* Text styling */
 
-
 .card-repo, .card-deployed {
     display: inline-block;
     margin-right: 5%;
@@ -165,7 +157,6 @@ div.card-body {
 .linkedin-logo {
     width: 10%;
     height: 10%;
-    /* margin-top: 10%; */
     margin-right: 5%;
 }
 
@@ -174,13 +165,11 @@ div.card-body {
 }
 /* Footer */
 
-.footer-containter {
-    position:absolute; 
-    margin-top: 0%;
-    background-color: rgb(43, 40, 40) ;
-   
-}
+.footer-container {
+    bottom: 0;
+    padding: 0;
 
+}
 
 header {
     padding-top: 1%;
@@ -201,7 +190,8 @@ h1 {
     margin-left: 20%;
     margin-right: 20%;
     margin-bottom: 2% ;
-    width: 60%;
+    width: 50%;
+    height: 100%;
     border-radius: 20px;
 }
 
@@ -215,15 +205,36 @@ h2.card-title {
     margin-top:  2%;
 }
 
-
-.li.input {
-    display: flex;
-    flex-direction: column;
+div.form-container {
+    padding: 2%;
+    margin-left: 40%;
+    margin-right: 50%;
+    height: 350px;
 }
 
-.form-name, .form-lastName {
+input {
+    display: flex;
+    margin-top: 2%;
+    margin-bottom: 2%;
+    padding: 1%;
+    flex-direction: column;
+    justify-self: center;
+    
+}
+
+form.contact-form {
+    margin-top: 2%;
+}
+
+.title {
+    margin-top: 2%;
+}
+
+.form-name, .form-email {
     width: 200px;
     height: 50px;
+    /* margin-top: 2%;
+    margin-bottom: 1%; */
     justify-self: center;
 }
 
@@ -231,18 +242,21 @@ h2.card-title {
 .form-message {
     width: 200px;
     height: 100px;
+    margin-top: 2%;
 }
+
 
 .submit-button {
+    margin-top: 5%;
+    margin-left: 2%;
     width: 100px;
-    height: 50px;
-    margin-top: 2%;
-    margin-bottom: 2%;
 }
 
-input {
+
+input, textarea {
     text-align: center;
 }
+
 
 .skill-logo  {
     text-align: center;
@@ -270,7 +284,8 @@ li.skill {
     margin-right: 20%;
     margin-bottom: 2% ;
     padding: 1%;
-    width: 60%;
+    width: 70%;
+    height: 60%;
     border-radius: 20px;
 }
 
@@ -286,7 +301,8 @@ p {
     margin-top: 2%;
     margin-bottom: 2%;
 }
-a, a:hover, a:active, a:visited { 
+
+a, a:hover, a:visited { 
     color: white; 
     font-size: 25px;
 }
