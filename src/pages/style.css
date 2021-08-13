@@ -46,10 +46,13 @@ div.column {
 /* images */
 
 div.card-body {
-    padding: 2%;
+    padding: 1%;
     border-radius: 3%;
-    background: rgb(200,34,255);
-    background: linear-gradient(0deg, rgba(200,34,255,1) 0%, rgba(44,209,207,1) 49%, rgba(26,109,255,1) 100%);
+    background-image: url(./images/bg1.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    /* background: rgb(200,34,255);
+    background: linear-gradient(0deg, rgba(200,34,255,1) 0%, rgba(44,209,207,1) 49%, rgba(26,109,255,1) 100%); */
 }
 
 /*Portfolio images*/
@@ -151,7 +154,7 @@ div.card-body {
 .github-logo {
     width: 10%;
     height: 10%;
-    margin-top: 10%;
+    /* margin-top: 10%; */
     margin-right: 5%;
 }
 
@@ -162,7 +165,7 @@ div.card-body {
 .linkedin-logo {
     width: 10%;
     height: 10%;
-    margin-top: 10%;
+    /* margin-top: 10%; */
     margin-right: 5%;
 }
 
@@ -180,9 +183,11 @@ div.card-body {
 
 
 header {
-    padding-top: 2%;
-    background-color: rgb(200,34,255);
-    padding-bottom: 2%;
+    padding-top: 1%;
+    background-image: url(./images/bg1.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding-bottom: 1%;
 }
 
 h1 {
@@ -260,6 +265,7 @@ li.skill {
     margin-left: 20%;
     margin-right: 20%;
     margin-bottom: 2% ;
+    padding: 1%;
     width: 60%;
     border-radius: 20px;
 }
