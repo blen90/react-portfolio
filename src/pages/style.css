@@ -197,6 +197,8 @@ h1 {
 
 h2.title {
     color:snow;
+    padding-top: 2%;
+    text-align: center;
     margin-top:  2%;
 }
 
@@ -205,11 +207,12 @@ h2.card-title {
     margin-top:  2%;
 }
 
-div.form-container {
+form {
     padding: 2%;
-    margin-left: 40%;
-    margin-right: 50%;
-    height: 350px;
+    /* text-align: center; */
+    margin-left: 30%;
+    margin-right: auto;
+    height: 300px;
 }
 
 input {
@@ -224,6 +227,7 @@ input {
 
 form.contact-form {
     margin-top: 2%;
+    
 }
 
 .title {
@@ -231,17 +235,17 @@ form.contact-form {
 }
 
 .form-name, .form-email {
-    width: 200px;
-    height: 50px;
-    /* margin-top: 2%;
-    margin-bottom: 1%; */
-    justify-self: center;
+    width: 60%;
+    height: 15%;
+    margin-top: 2%;
+    margin-bottom: 1%;
+    align-content: center;
 }
 
 
 .form-message {
-    width: 200px;
-    height: 100px;
+    width: 60%;
+    height: 50%;
     margin-top: 2%;
 }
 
@@ -249,7 +253,7 @@ form.contact-form {
 .submit-button {
     margin-top: 5%;
     margin-left: 2%;
-    width: 100px;
+    width: 60%;
 }
 
 

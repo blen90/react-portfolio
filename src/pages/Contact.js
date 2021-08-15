@@ -43,10 +43,10 @@ export default function Contact() {
     setMessage('');
   }
   return (
-    <div className="form col-6-md col-3-sm justify-content-center text-center">
-      <h2 className="title"> Get in touch with me! </h2>
-      <div className="form-container col-6-md col-3-sm">
-        <form className="contact-form col-6-md col-3-sm">
+    <div className="form justify-content-center">
+      <h2 className="title"> Contact me! </h2>
+
+        <form className="contact-form">
           <input value={name} className="form-name"
             name="name"
             onChange={handleInputChange}
@@ -75,7 +75,6 @@ export default function Contact() {
           <button className="submit-button btn-primary" type="button" onClick={handleFormSubmit}>Submit</button>
 
         </form>
-      </div>
       {errorMessage && (
         <div>
           <p className="error-text">{errorMessage}</p>
