@@ -1,4 +1,4 @@
-# react-portfolio
+# React Portfolio
 
 Welcome to my Portfolio. I used React, CSS, Bootstrap and JSX to create it. 
 
