@@ -1,87 +1,45 @@
-import './style.css';
-import React, { useState } from 'react';
-import { validateEmail } from '../utils/helpers';
+import React from 'react';
+import emailjs from 'emailjs-com';
+import { Col, Form, Container } from "reactstrap";
 
 export default function Contact() {
-  const [name, setName] = useState('');
-  const [email, setEmail] = useState('');
-  const [message, setMessage] = useState('');
-  const [errorMessage, setErrorMessage] = useState('');
 
-  const handleInputChange = (e) => {
-    const { target } = e;
-    const inputType = target.name;
-    const inputValue = target.value;
-
-    if (inputType === 'name') {
-      setName(inputValue);
-    } else if (inputType === 'email') {
-      setEmail(inputValue);
-    } else {
-      setMessage(inputValue);
-    }
-  }
-  const handleInputBlur = (e) => {
-    if (!e.target.value.length) {
-      setErrorMessage(`${e.target.name} is required`);
-    } else {
-      setErrorMessage('');
-    }
-  }
-  const handleFormSubmit = (e) => {
+  //Setting up emailjs to send email when user submits the form
+  function sendEmail(e) {
     e.preventDefault();
-    if (!validateEmail(email)) {
-      setErrorMessage('Please enter a valid email.');
-      return;
 
-    } else if (!name.length || !email.length || !message.length) {
-      setErrorMessage('Please complete the required fields');
-      return;
-    }
-    setName('');
-    setEmail('');
-    setMessage('');
+    emailjs.sendForm('service_mxb2e23', 'template_twwgk7d', e.target, 'user_j4vKKqMNY4xCOIUz7layV')
+      .then((result) => {
+        console.log(result.text);
+      }, (error) => {
+        console.log(error.text);
+      });
+    e.target.reset()
+    alert("Your message has been sent!")
   }
+
   return (
-    <div className="form justify-content-center">
-      <h2 className="title"> Contact me! </h2>
-
-        <form className="contact-form">
-          <input value={name} className="form-name"
-            name="name"
-            onChange={handleInputChange}
-            onBlur={handleInputBlur}
-            type="text"
-            placeholder="Name"
-          />
-          <input
-            value={email}
-            name="email"
-            className="form-email"
-            onChange={handleInputChange}
-            onBlur={handleInputBlur}
-            type="email"
-            placeholder="Email"
-          />
-          <input
-            value={message}
-            className="form-message"
-            name="message"
-            onChange={handleInputChange}
-            onBlur={handleInputBlur}
-            type="textarea"
-            placeholder="Message"
-          />
-          <button className="submit-button btn-primary" type="button" onClick={handleFormSubmit}>Submit</button>
-
-        </form>
-      {errorMessage && (
-        <div>
-          <p className="error-text">{errorMessage}</p>
-        </div>
-      )}
-
-    </div>
-  )
+    <Container className="container-fluid">
+      <Col sm="6" md="6" className="form text-center">
+        <h5 className="email"> Fill out the form for me to get in touch with you!</h5>
+        <Form className="justify-content-center" onSubmit={sendEmail}>
+          <input type="hidden" name="contact_number" />
+          <li>
+            <input type="text" className="form-name" name="user_name" placeholder="Name" />
+          </li>
+          <li>
+            <input type="text" className="form-email" name="user_email" placeholder="Email" />
+          </li>
+          <li>
+            <input type="text" className="form-message" name="message" placeholder="Message" />
+          </li>
+          <li>
+            <button type="submit" className="submit-button">Send</button>
+          </li>
+          <h6 className="title"> Or if you prefer you can email me directly: <br></br></h6>
+          <strong><p><a className="email" href="mailto:blen.or90@gmail.com" alt="Email me at:">blen.or90@gmail.com</a></p> </strong>
+        </Form>
+      </Col>
+    </Container>
+  );
 }
-
