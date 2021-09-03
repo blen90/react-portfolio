@@ -8,7 +8,7 @@ import Work from '../assets/images/work.jpg';
 import Weather from '../assets/images/weather-dashboard.jpg';
 import Notes from '../assets/images/notes.jpg';
 import Workout from '../assets/images/workout.jpg';
-
+import barkAvenue from '../assets/images/barkAvenue.jpg';
 
 
 const data = [
@@ -30,13 +30,22 @@ const data = [
       id: 2,
     },
 
+    {
+      name: 'Project 3 - Bark Avenue',
+      image: <img src={barkAvenue} alt="landing page" className="dashboard"></img>,
+      description: 'This app was created for a Luxury Dog Hotel',
+      repository: <a href="https://github.com/blen90/barkAvenue" target="_blank" rel="noreferrer">Link to repository</a>,
+      deployed: <a href=" https://bark-avenue.herokuapp.com/" target="_blank" rel="noreferrer">Link to deployed app</a>,
+      id: 3,
+    },
+
   {
     name: 'Password Generator',
     image: <img src={Password} alt="password-generator" className="password-generator"></img>,
     description: 'This app creates a random password with the choices the user picks',
     repository: <a href="https://www.github.com/blen90/hw3-code-generator.git" target="_blank" rel="noreferrer">Link to repository</a>,
     deployed: <a href="https://blen90.github.io/hw3-code-generator/" target="_blank" rel="noreferrer">Link to deployed app</a>,
-    id: 3,
+    id: 4,
   },
   {
     name: 'Work Day Scheduler',
@@ -44,7 +53,7 @@ const data = [
     description: 'This app allows the user to have a Work Day Scheduler and it saves tasks and changes color depending on what time it is',
     repository: <a href="https://github.com/blen90/hw5-workday-calendar.git" target="_blank" rel="noreferrer">Link to repository</a>,
     deployed: <a href="https://blen90.github.io/hw5-workday-calendar/" target="_blank" rel="noreferrer">Link to deployed app</a>,
-    id: 4,
+    id: 5,
   },
   {
     name: 'Weather Dashboard',
@@ -52,7 +61,7 @@ const data = [
     description: 'This app allows the user to get the current weather in the city they want to checkout and gives the five day Forecast',
     repository: <a href="https://github.com/blen90/hw6-weather-dashboard.git" target="_blank" rel="noreferrer">Link to repository</a>,
     deployed: <a href="https://blen90.github.io/hw6-weather-dashboard/" target="_blank" rel="noreferrer">Link to deployed app</a>,
-    id: 5,
+    id: 6,
   },
   {
     name: 'Note Taker',
@@ -60,7 +69,7 @@ const data = [
     description: 'This app allows the user to create notes, saved them and delete them.',
     repository: <a href="https://github.com/blen90/hw11-note-taker.git" target="_blank" rel="noreferrer">Link to repository</a>,
     deployed: <a href="https://atitlan-note-taker.herokuapp.com/" target="_blank" rel="noreferrer">Link to deployed app</a>,
-    id: 6,
+    id: 7,
   },
   {
     name: 'Workout Tracker',
@@ -68,7 +77,7 @@ const data = [
     description: 'This app allows the user to create workout routines and keep track of them. It also keeps track of the past 7 days.',
     repository: <a href="https://github.com/blen90/hw18-workout-tracker.git" target="_blank" rel="noreferrer">Link to repository</a>,
     deployed: <a href="https://quiet-crag-39562.herokuapp.com/?id=610b4ad83d6a8d001502b06a" target="_blank" rel="noreferrer">Link to deployed app</a>,
-    id: 7,
+    id: 8,
   },
 ];
 
