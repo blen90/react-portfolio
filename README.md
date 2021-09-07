@@ -19,10 +19,10 @@ https://blen90.github.io/react-portfolio/#about
 
 ## Screenshots of the app
 
-![Portolio](portfolio1.jpg)
-![Portolio](portfolio2.jpg)
-![Portolio](portfolio3.jpg)
-![Portolio](portfolio4.jpg)
+![Portolio](./public/assets/images/portfolio1.jpg)
+![Portolio](./public/assets/images/portfolio2.jpg)
+![Portolio](./public/assets/images/portfolio3.jpg)
+![Portolio](./public/assets/images/portfolio4.jpg)
 
 # Table of Contents
 
