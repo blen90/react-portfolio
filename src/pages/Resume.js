@@ -17,7 +17,7 @@ export default function Resume() {
                 <li className="skill"><a href="https://graphql.org/" target="_blank" rel="noreferrer"><img className="skill-logo display:inline" src={process.env.PUBLIC_URL + '/assets/icons/graphql.jpg'} alt="logo"></img></a></li>
                 <li className="skill"><a href="https://www.postman.com/" target="_blank" rel="noreferrer"><img className="skill-logo display:inline" src={process.env.PUBLIC_URL + '/assets/icons/postman.jpg'} alt="logo"></img></a></li>
                 <br></br>
-                <a href="https://drive.google.com/file/d/1DX50CG6UXmlpGEqXAGVL5MvHmI8Lzm_b/view?usp=sharing" target="_blank" rel="noreferrer">Link to Resume on Google Drive</a>
+                <a href="https://drive.google.com/file/d/1E-U8xAw54FGMyvB6WEzU1T5g7xwo6xrQ/view?usp=sharing" target="_blank" rel="noreferrer">Link to Resume on Google Drive</a>
             </div>
         </div>
     );
