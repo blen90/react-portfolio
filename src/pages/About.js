@@ -7,16 +7,21 @@ export default function About() {
       <div className="card-body ">
         <h1>About Me</h1>
         <img src={process.env.PUBLIC_URL + '/assets/images/blenda1.jpg'} alt="blenda" className="blenda"></img>
-        <p>Hello! My name is Blenda, I'm originally from Guatemala, but I'm currently living in Austin, Texas.</p>
-        <p> I enjoy going on long walks and hikes with my two dogs, cooking all sorts of international foods and travelling.</p>
-        <p>I just received my certificate for Full Stack Web Development Certificate (Coding Boot Camp) from the University of Minnesota. This was an intensive 12-week accredited Bootcamp with new course material introduced every 2 or 3 days. </p>
-        <p>This Bootcamp required an individual weekly effort ranging between 80-100+ hours in order to attend classes, complete real-world programming assignments, and collaborate on 3 small group projects with other students who attended the Bootcamp.</p>
-        <p> I have a Business and Finance background, I am bilingual in English and Spanish, and a new discovered passion is coding</p>
-        <p>I'm very excited to extend my knowledge in coding! </p>
+        <p>
+          Hello! My name is Blenda, I'm originally from Guatemala, but I'm currently living in Austin, Texas.
+          For fun I enjoy going on long walks and hikes with my two dogs, cooking all sorts of international foods, going to orchestra concerts, attending festivals or concerts, and travelling.
+          <br></br>
+          <br></br>
+          I just received my certificate for Full Stack Web Development Certificate (Coding Boot Camp) from the University of Minnesota.
+          This Bootcamp required an individual weekly effort ranging between 80-100+ hours in order to attend classes, complete real-world programming assignments, and collaborate on 3 group projects with other students.
+          I have a Business and Finance background, I am bilingual in English and Spanish, and I have a newly discovered passion for coding.
+          <br></br>
+          <br></br>
+          I'm very excited to keep extending my knowledge in coding and improving my coding skills!
+        </p>
       </div>
     </div>
   );
-
 }
 
 
