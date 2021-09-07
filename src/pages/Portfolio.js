@@ -6,57 +6,57 @@ const data = [
   {
     name: 'Project 1 - Cocktails-Cuisine-Craft-Beers',
     image: <img src={process.env.PUBLIC_URL + '/assets/images/landing_page.jpg'} alt="landing page" className="landing_page"></img>,
-    description: <h5>This app was created for the user to search for cocktail recipes to make at home, restaurants and breweries close by.</h5>,
-    
-    repository: <h5><a href="https://www.github.com/blen90/Cocktails-Cuisine-Craft-Beers.git" target="_blank" rel="noreferrer">Link to repository</a></h5>,
-    deployed: <h5><a href="https://jacobbeckfeld.github.io/Cocktails-Cuisine-Craft-Beers/" target="_blank" rel="noreferrer">Link to deployed app</a></h5>,
+    description: <p>This is a web app that utilizes HTML, CSS and JavaScript. It allows the user to search for cocktail recipes to make at home by searching for a specific cocktail or spirit. It also allows the user to search for restaurants or breweries by Zipcode. </p>,
+
+    repository: <a href="https://www.github.com/blen90/Cocktails-Cuisine-Craft-Beers.git" target="_blank" rel="noreferrer">Link to repository</a>,
+    deployed: <a href="https://jacobbeckfeld.github.io/Cocktails-Cuisine-Craft-Beers/" target="_blank" rel="noreferrer">Link to deployed app</a>,
     technologies:
-      <ul technologies-list-info-list>     
+      <ul technologies-list-info-list>
         <br></br>
-        <h4> Technology stack:</h4>
+        <p>TECHNOLOGIES</p>
         <li className="skill"><a href="https://www.w3schools.com/html/default.asp" target="_blank" rel="noreferrer"><img className="skill-logo display:inline" src={process.env.PUBLIC_URL + '/assets/icons/html.jpg'} alt="logo"></img></a></li>
         <li className="skill"><a href="https://www.w3schools.com/css/default.asp" target="_blank" rel="noreferrer"><img className="skill-logo display:inline" src={process.env.PUBLIC_URL + '/assets/icons/css.jpg'} alt="logo"></img></a></li>
-        <li className="skill"><a href="https://www.w3schools.com/js/default.asp" target="_blank" rel="noreferrer"><img className="skill-logo display:inline" src={process.env.PUBLIC_URL + '/assets/icons/js.jpg'}alt="logo"></img></a></li>
+        <li className="skill"><a href="https://www.w3schools.com/js/default.asp" target="_blank" rel="noreferrer"><img className="skill-logo display:inline" src={process.env.PUBLIC_URL + '/assets/icons/js.jpg'} alt="logo"></img></a></li>
       </ul>,
     id: 1,
   },
-  
-    {
-      name: 'Project 2 - Event Organizer',
-      image: <img src={process.env.PUBLIC_URL + '/assets/images/dashboard-project-2.jpg'} alt="landing page" className="dashboard"></img>,
-      description: <h5>This app was created so the user can lookup events close by, create and save events</h5>,
-      repository: <h5><a href="https://www.github.com/neilburt/group-project-2" target="_blank" rel="noreferrer">Link to repository</a></h5>,
-      deployed: <h5><a href="https://gentle-reaches-60799.herokuapp.com/" target="_blank" rel="noreferrer">Link to deployed app</a></h5>,
-      technologies:
-      <ul technologies-list-info-list>     
+
+  {
+    name: 'Project 2 - Event Organizer',
+    image: <img src={process.env.PUBLIC_URL + '/assets/images/dashboard-project-2.jpg'} alt="landing page" className="dashboard"></img>,
+    description: <p>This is a web application that utilizes MySQL, Handlebars, and several Node.js packages to deliver a live event search by Zipcode and save tool. The user can also visit the event's website as this app has a link to redirect them to it. The user can also use it to create and save their own events. Once the user has saved a searched event or a created event these will show up in their personal dashboard.</p>,
+    repository: <a href="https://www.github.com/neilburt/group-project-2" target="_blank" rel="noreferrer">Link to repository</a>,
+    deployed: <a href="https://gentle-reaches-60799.herokuapp.com/" target="_blank" rel="noreferrer">Link to deployed app</a>,
+    technologies:
+      <ul technologies-list-info-list>
         <br></br>
-        <h4> Technology stack:</h4>
+        <p>TECHNOLOGIES</p>
         <li className="skill"><a href="https://nodejs.org/en/docs/" target="_blank" rel="noreferrer"><img className="skill-logo display:inline" src={process.env.PUBLIC_URL + '/assets/icons/node.jpg'} alt="logo"></img></a></li>
         <li className="skill"><a href="https://dev.mysql.com/doc/" target="_blank" rel="noreferrer"><img className="skill-logo display:inline" src={process.env.PUBLIC_URL + '/assets/icons/mysql.jpg'} alt="logo"></img></a></li>
         <li className="skill"><a href="https://www.w3schools.com/css/default.asp" target="_blank" rel="noreferrer"><img className="skill-logo display:inline" src={process.env.PUBLIC_URL + '/assets/icons/css.jpg'} alt="logo"></img></a></li>
         <li className="skill"><a href="https://www.w3schools.com/js/default.asp" target="_blank" rel="noreferrer"><img className="skill-logo display:inline" src={process.env.PUBLIC_URL + '/assets/icons/js.jpg'} alt="logo"></img></a></li>
         <li className="skill"><a href="https://handlebarsjs.com/" target="_blank" rel="noreferrer"><img className="skill-logo display:inline" src={process.env.PUBLIC_URL + '/assets/icons/handlebars.jpg'} alt="logo"></img></a></li>
         <li className="skill"><a href="https://www.postman.com/" target="_blank" rel="noreferrer"><img className="skill-logo display:inline" src={process.env.PUBLIC_URL + '/assets/icons/postman.jpg'} alt="logo"></img></a></li>
-   </ul>,
-      id: 2,
-    },
+      </ul>,
+    id: 2,
+  },
 
-    {
-      name: 'Project 3 - Bark Avenue',
-      image: <img src={process.env.PUBLIC_URL + '/assets/images/barkAvenue.jpg'} alt="landing page" className="dashboard"></img>,
-      description: <h5>This app was created for a Luxury Dog Hotel</h5>,
-      repository: <h5><a href="https://github.com/blen90/barkAvenue.jpg" target="_blank" rel="noreferrer">Link to repository</a></h5>,
-      deployed: <h5><a href=" https://bark-avenue.herokuapp.com/" target="_blank" rel="noreferrer">Link to deployed app</a></h5>,
-      technologies:
-      <ul technologies-list-info-list text-center="true">     
+  {
+    name: 'Project 3 - Bark Avenue',
+    image: <img src={process.env.PUBLIC_URL + '/assets/images/barkAvenue.jpg'} alt="landing page" className="dashboard"></img>,
+    description: <p>Bark Avenue is a luxury hotel for dogs that utilizes ReactJs, MongoDB and CSS. This app allows the user to sign up, or log in, set their pet's name, view the services that are offered, the user can then select a service to book a reservation, the user ca add their choices to the cart, update the cart and proceed to payment (right now it's a placeholder form) which shows a summary of the reservation details and the total for the reservation.</p>,
+    repository: <a href="https://github.com/blen90/barkAvenue.jpg" target="_blank" rel="noreferrer">Link to repository</a>,
+    deployed: <a href=" https://bark-avenue.herokuapp.com/" target="_blank" rel="noreferrer">Link to deployed app</a>,
+    technologies:
+      <ul technologies-list-info-list>
         <br></br>
-        <h4> Technology stack:</h4>
+        <p>TECHNOLOGIES</p>
         <li className="skill"><a href="https://reactjs.org/" target="_blank" rel="noreferrer"><img className="skill-logo display:inline" src={process.env.PUBLIC_URL + '/assets/icons/react.jpg'} alt="logo"></img></a></li>
-        <li className="skill"><a href="https://www.mongodb.com/" target="_blank" rel="noreferrer"><img className="skill-logo display:inline" src={process.env.PUBLIC_URL + '/assets/icons/mongo.jpg'} alt="logo"></img></a></li>      
+        <li className="skill"><a href="https://www.mongodb.com/" target="_blank" rel="noreferrer"><img className="skill-logo display:inline" src={process.env.PUBLIC_URL + '/assets/icons/mongo.jpg'} alt="logo"></img></a></li>
         <li className="skill"><a href="https://www.w3schools.com/css/default.asp" target="_blank" rel="noreferrer"><img className="skill-logo display:inline" src={process.env.PUBLIC_URL + '/assets/icons/css.jpg'} alt="logo"></img></a></li>
       </ul>,
-      id: 3,
-    },
+    id: 3,
+  },
 
   // {
   //   name: 'Password Generator',
@@ -104,7 +104,7 @@ export default function Display() {
   return (
     <div className="projects">
       {data.map((projects) => (
-        <Card name={projects.name} image={projects.image} description={projects.description}  repository={projects.repository} deployed={projects.deployed}  technologies={projects.technologies} key={projects.id} />
+        <Card name={projects.name} image={projects.image} description={projects.description} repository={projects.repository} deployed={projects.deployed} technologies={projects.technologies} key={projects.id} />
       ))}
     </div>
   );
