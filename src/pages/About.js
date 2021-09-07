@@ -12,7 +12,7 @@ export default function About() {
           For fun I enjoy going on long walks and hikes with my two dogs, cooking all sorts of international foods, going to orchestra concerts, attending festivals or concerts, and travelling.
           <br></br>
           <br></br>
-          I just received my certificate for Full Stack Web Development Certificate (Coding Boot Camp) from the University of Minnesota.
+          I just received my Full Stack Web Development Certificate (Coding Boot Camp) from the University of Minnesota.
           This Bootcamp required an individual weekly effort ranging between 80-100+ hours in order to attend classes, complete real-world programming assignments, and collaborate on 3 group projects with other students.
           I have a Business and Finance background, I am bilingual in English and Spanish, and I have a newly discovered passion for coding.
           <br></br>
