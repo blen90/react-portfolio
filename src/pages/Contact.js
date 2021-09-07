@@ -36,8 +36,10 @@ export default function Contact() {
           <li>
             <button type="submit" className="submit-button">Send</button>
           </li>
-          <h6 className="title"> Or if you prefer you can email me directly: <br></br></h6>
-          <strong><p><a className="email" href="mailto:blen.or90@gmail.com" alt="Email me at:">blen.or90@gmail.com</a></p> </strong>
+          <br></br>
+          <br></br>
+          <h5 className="email"> Or if you prefer you can email me direcly at:</h5> <br></br>
+          <strong><h4><a className="email" href="mailto:blen.or90@gmail.com" alt="Email me at:">blen.or90@gmail.com</a></h4> </strong>
         </Form>
       </Col>
     </Container>
