@@ -11,7 +11,7 @@ const data = [
     repository: <h5><a href="https://www.github.com/blen90/Cocktails-Cuisine-Craft-Beers.git" target="_blank" rel="noreferrer">Link to repository</a></h5>,
     deployed: <h5><a href="https://jacobbeckfeld.github.io/Cocktails-Cuisine-Craft-Beers/" target="_blank" rel="noreferrer">Link to deployed app</a></h5>,
     technologies:
-      <ul technologies-list-info-list text-center="true">     
+      <ul technologies-list-info-list>     
         <br></br>
         <h4> Technology stack:</h4>
         <li className="skill"><a href="https://www.w3schools.com/html/default.asp" target="_blank" rel="noreferrer"><img className="skill-logo display:inline" src={process.env.PUBLIC_URL + '/assets/icons/html.jpg'} alt="logo"></img></a></li>
@@ -21,23 +21,42 @@ const data = [
     id: 1,
   },
   
-  //   {
-  //     name: 'Project 2 - Event Organizer',
-  //     image: <img src={process.env.PUBLIC_URL + '/assets/images/dashboard-project-2.jpg'} alt="landing page" className="dashboard"></img>,
-  //     description: 'This app was created so the user can lookup events close by, create and save events',
-  //     repository: <a href="https://www.github.com/neilburt/group-project-2" target="_blank" rel="noreferrer">Link to repository</a>,
-  //     deployed: <a href="https://gentle-reaches-60799.herokuapp.com/" target="_blank" rel="noreferrer">Link to deployed app</a>,
-  //     id: 2,
-  //   },
+    {
+      name: 'Project 2 - Event Organizer',
+      image: <img src={process.env.PUBLIC_URL + '/assets/images/dashboard-project-2.jpg'} alt="landing page" className="dashboard"></img>,
+      description: <h5>This app was created so the user can lookup events close by, create and save events</h5>,
+      repository: <h5><a href="https://www.github.com/neilburt/group-project-2" target="_blank" rel="noreferrer">Link to repository</a></h5>,
+      deployed: <h5><a href="https://gentle-reaches-60799.herokuapp.com/" target="_blank" rel="noreferrer">Link to deployed app</a></h5>,
+      technologies:
+      <ul technologies-list-info-list>     
+        <br></br>
+        <h4> Technology stack:</h4>
+        <li className="skill"><a href="https://nodejs.org/en/docs/" target="_blank" rel="noreferrer"><img className="skill-logo display:inline" src={process.env.PUBLIC_URL + '/assets/icons/node.jpg'} alt="logo"></img></a></li>
+        <li className="skill"><a href="https://dev.mysql.com/doc/" target="_blank" rel="noreferrer"><img className="skill-logo display:inline" src={process.env.PUBLIC_URL + '/assets/icons/mysql.jpg'} alt="logo"></img></a></li>
+        <li className="skill"><a href="https://www.w3schools.com/css/default.asp" target="_blank" rel="noreferrer"><img className="skill-logo display:inline" src={process.env.PUBLIC_URL + '/assets/icons/css.jpg'} alt="logo"></img></a></li>
+        <li className="skill"><a href="https://www.w3schools.com/js/default.asp" target="_blank" rel="noreferrer"><img className="skill-logo display:inline" src={process.env.PUBLIC_URL + '/assets/icons/js.jpg'} alt="logo"></img></a></li>
+        <li className="skill"><a href="https://handlebarsjs.com/" target="_blank" rel="noreferrer"><img className="skill-logo display:inline" src={process.env.PUBLIC_URL + '/assets/icons/handlebars.jpg'} alt="logo"></img></a></li>
+        <li className="skill"><a href="https://www.postman.com/" target="_blank" rel="noreferrer"><img className="skill-logo display:inline" src={process.env.PUBLIC_URL + '/assets/icons/postman.jpg'} alt="logo"></img></a></li>
+   </ul>,
+      id: 2,
+    },
 
-  //   {
-  //     name: 'Project 3 - Bark Avenue',
-  //     image: <img src={process.env.PUBLIC_URL + '/assets/images/barkAvenue.jpg'} alt="landing page" className="dashboard"></img>,
-  //     description: 'This app was created for a Luxury Dog Hotel',
-  //     repository: <a href="https://github.com/blen90/barkAvenue.jpg" target="_blank" rel="noreferrer">Link to repository</a>,
-  //     deployed: <a href=" https://bark-avenue.herokuapp.com/" target="_blank" rel="noreferrer">Link to deployed app</a>,
-  //     id: 3,
-  //   },
+    {
+      name: 'Project 3 - Bark Avenue',
+      image: <img src={process.env.PUBLIC_URL + '/assets/images/barkAvenue.jpg'} alt="landing page" className="dashboard"></img>,
+      description: <h5>This app was created for a Luxury Dog Hotel</h5>,
+      repository: <h5><a href="https://github.com/blen90/barkAvenue.jpg" target="_blank" rel="noreferrer">Link to repository</a></h5>,
+      deployed: <h5><a href=" https://bark-avenue.herokuapp.com/" target="_blank" rel="noreferrer">Link to deployed app</a></h5>,
+      technologies:
+      <ul technologies-list-info-list text-center="true">     
+        <br></br>
+        <h4> Technology stack:</h4>
+        <li className="skill"><a href="https://reactjs.org/" target="_blank" rel="noreferrer"><img className="skill-logo display:inline" src={process.env.PUBLIC_URL + '/assets/icons/react.jpg'} alt="logo"></img></a></li>
+        <li className="skill"><a href="https://www.mongodb.com/" target="_blank" rel="noreferrer"><img className="skill-logo display:inline" src={process.env.PUBLIC_URL + '/assets/icons/mongo.jpg'} alt="logo"></img></a></li>      
+        <li className="skill"><a href="https://www.w3schools.com/css/default.asp" target="_blank" rel="noreferrer"><img className="skill-logo display:inline" src={process.env.PUBLIC_URL + '/assets/icons/css.jpg'} alt="logo"></img></a></li>
+      </ul>,
+      id: 3,
+    },
 
   // {
   //   name: 'Password Generator',
